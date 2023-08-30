@@ -15,5 +15,5 @@ Livecycle DevOps
 
 Installasi Ubuntu Server menggunakan VMWare
 
-https://raw.githubusercontent.com/restubagusananda/devops18-dumbways-restubagusananda/main/Cuplikan%20layar%202023-08-29%20002239.png
+![image](https://raw.githubusercontent.com/restubagusananda/devops18-dumbways-restubagusananda/main/Cuplikan%20layar%202023-08-29%20002239.png)
 
