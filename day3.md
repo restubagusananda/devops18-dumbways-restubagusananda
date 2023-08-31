@@ -12,8 +12,17 @@ Repository
 4. ![image](https://github.com/restubagusananda/scrnd3/blob/66cf3a5da6169eddec834835f71656487d021e8b/Cuplikan%20layar%202023-08-31%20111238.png)
 5. ![image](https://github.com/restubagusananda/scrnd3/blob/66cf3a5da6169eddec834835f71656487d021e8b/Cuplikan%20layar%202023-08-31%20110450.png)
 
-golang
+
+
+Golang
+
+![image](https://github.com/restubagusananda/scrnd3/blob/e3cbf6e1169592e5de75299c90a9cb355945d743/Cuplikan%20layar%202023-08-31%20114032.png)
 ![image](https://github.com/restubagusananda/uploadscrn/blob/4ad97e7c4f0123444170538ff905d9d1ca484fee/Cuplikan%20layar%202023-08-30%20133200.png)
 
+
+
 Phyton3
+
+
+![image](https://github.com/restubagusananda/scrnd3/blob/e3cbf6e1169592e5de75299c90a9cb355945d743/Cuplikan%20layar%202023-08-31%20114103.png)
 ![image](https://github.com/restubagusananda/uploadscrn/blob/4ad97e7c4f0123444170538ff905d9d1ca484fee/Cuplikan%20layar%202023-08-30%20210257.png)
