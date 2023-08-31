@@ -1,6 +1,13 @@
 Basic Shell & Computer Networking
 
-1
+1  Perbedaan antara IP Private & Public, serta IP Dynamic & Static
+
+IP Private :  IP private adalah alamat IP yang digunakan dalam jaringan local dan tidak bisa diakses dari jaringan internet secara langsung.
+
+IP Public  :  IP public adalah alamat IP yang digunakan dalam jaringan global Internet. IP public dapat terhubung langsung dengan jaringan internet secara global.
+
+IP Dinamyc :  IP dinamis berubah secara berkala melalui DHCP.
+IP Ststic  :  Alamat IP statis ditetapkan secara permanen ke perangkat.
 
 
 2  Rancangan Jaringan
