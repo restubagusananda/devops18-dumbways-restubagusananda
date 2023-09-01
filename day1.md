@@ -8,6 +8,10 @@ DevOps merupakan singkatan dari dua kata yaitu Development dan Operation. Di man
 
 Livecycle DevOps
 
+
+![image](https://netsmartz.com/wp-content/uploads/2022/12/DevOps-Lifecycle.jpg)
+
+
 1) Continuous Development This phase involves the planning and coding of the software. ...
 2) Continuous Integration This stage is the heart of the entire DevOps lifecycle. ...
 3) Continuous Testing This phase, where the developed software is continuously testing for bugs. ...
