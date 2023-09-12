@@ -115,56 +115,35 @@ nmon
 ## BASH script untuk instalasi nGinx
 
 Anda dapat membuat skrip BASH sederhana untuk menginstal Nginx dengan perintah berikut:
+## 3. Buatlah BASH Script untuk instalasi NGINX
+### 3.1 Buat File Script
+<img width="1440" alt="Screenshot 2023-09-06 at 01 19 32" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/d35df259-5ec8-4e95-a55c-8ffc2cf7cc95">
+Pertama buatlah file dengan nama <b>install_nginx.sh</b> dengan menjalankan perintah:
 
-```bash
-#!/bin/bash
-
-# Periksa apakah script dijalankan sebagai superuser
-if [ "$EUID" -ne 0 ]; then
-    echo "Skrip ini harus dijalankan sebagai superuser (root)." >&2
-    exit 1
-fi
-
-# Perbarui cache paket
-apt update
-
-# Instal Nginx
-apt install -y nginx
-
-# Mulai Nginx
-systemctl start nginx
-
-# Aktifkan Nginx untuk dijalankan saat boot
-systemctl enable nginx
-
-# Tampilkan pesan sukses
-echo "Nginx telah berhasil diinstal dan diaktifkan."
-
-exit 0
+```shell
+nano install_nginx.sh
 ```
 
-Simpan skrip ini dalam file dengan ekstensi `.sh`, misalnya `install_nginx.sh`, dan berikan izin eksekusi dengan perintah:
+### 3.2 Isi File Script
+<img width="1440" alt="Screenshot 2023-09-06 at 01 18 23" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/7c26c5a9-aa11-4ff4-a9a7-0bd2ddff6806">
+Lalu masukan perintah berikut pada text editor:
 
-```bash
-chmod +x install_nginx.sh
+```shell
+#!/usr/bin/env bash
+
+sudo apt update
+sudo apt install nginx -y
+sudo ufw allow 'Nginx Full'
+sudo ufw status
+sudo systemctl status nginx
 ```
 
-Kemudian, jalankan skrip tersebut dengan perintah berikut:
+Terdapat 6 perintah yang dimasukan pada Script diatas secara berurutan yaitu, Update Repository, Install Nginx, UFW Open Port Nginx Full, Cek Status UFW, Cek Status Nginx 
 
-```bash
-sudo ./install_nginx.sh
+### 3.3 Jalankan Script
+<img width="1440" alt="Screenshot 2023-09-06 at 01 19 50" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/2faffb63-5166-4ca8-b5bb-0ffb64a30ea2">
+Setelah itu jalankan BASH Script dengan menjalankan perintah:
+
+```shell
+sh install_nginx.sh
 ```
-
-Skrip ini akan memeriksa apakah Anda menjalankannya sebagai superuser, kemudian memperbarui cache paket, menginstal Nginx, dan mengaktifkannya untuk dijalankan secara otomatis saat sistem boot. Setelah selesai, Anda akan melihat pesan bahwa Nginx telah berhasil diinstal dan diaktifkan.
-
-![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/0d1fa2f1-c714-4686-b651-4edb77f34129)
-
-keterangan : kondisi jika skrip dijalankan tidak sebagai superuser(root)
-
-![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/e5a8c5f7-2744-4c52-acc9-8cf963ae5836)
-
-keterangan : kondisi jika menjalankan skrip dengan superuser(root)
-
-cek localhost
-![image](https://github.com/irwanpanai/devops18-dumbways-irwanpanai/assets/89429810/3518dcb1-39d4-4911-9e21-47ebe54815d4)
-
