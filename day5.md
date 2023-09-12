@@ -4,5 +4,9 @@ Pada dasarnya kita bisa melakukan manipulasi pada sebuah file menggunakan termin
 
 **1. cat**
 
-Cat adalah salah satu perintah yang berfungsi untuk membuat daftar konten atau isi file pada standard output (sdout). Yang kalian tahu pasti perintah cat hanya bisa untuk melihat isi dari suatu file, sebenarnya tidak hanya itu.
+Untuk membuat suatu file baru dengan langsung memasuk-kan teks tanpa perlu menggunakan text editor dapat menjalankan perintah:
+
+```shell
+cat > cat1.txt
+```
 
