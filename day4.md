@@ -14,4 +14,12 @@ Distributed Version Control adalah jenis sistem manajemen versi yang digunakan u
 
 
 ## 4. Cari 3 Command Git yang Belum Dijelaskan dan Praktekkan
-
+```
+git log
+```
+```
+git help
+```
+```
+git rm
+```
