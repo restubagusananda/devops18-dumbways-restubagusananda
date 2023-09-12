@@ -46,3 +46,17 @@ sort (file-name)
 ```
 
 ![image](https://github.com/restubagusananda/scrn-week2-d2/blob/bc13d7e02b3bac92c3dab937af3782ae9fc1cc3b/Cuplikan%20layar%202023-09-12%20232020.png)
+
+
+**5. echo**
+Echo digunakan untuk mencetak string / pesan dari hasil perintah lain.
+
+Berikut adalah contoh penggunaan
+
+```
+echo "(text)" >/>> (file-name)
+```
+![image](https://github.com/restubagusananda/scrn-week2-d2/blob/35da32618c26c230fc0f3a2e25abd0a32285bf69/Cuplikan%20layar%202023-09-12%20232859.png)
+
+
+
