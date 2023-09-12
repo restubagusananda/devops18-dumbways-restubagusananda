@@ -9,3 +9,31 @@ Untuk membuat suatu file baru dengan langsung memasuk-kan teks tanpa perlu mengg
 ```shell
 cat > (file-name)
 ```
+**2. sed**
+
+Sed adalah singkatan dari stream editor. Gunanya untuk memanipulasi teks dasar pada file. Dengan sed kita dapat mengganti teks dengan cepat.
+
+Contoh penggunaan :
+
+```
+sed -i 's/mawar/ros/g' (file-name)
+```
+
+**3. grep**
+
+Grep merupakan perintah untuk melakukan pencarian sebuah text dalam sebuah file yang telah dibuat.
+Contoh penggunaan :
+
+```
+grep dumbways file3
+```
+
+**4. sort**
+
+Sort untuk mengurutkan data, baik itu secara ascending atau descending.
+
+Berikut adalah contoh penggunaan :
+
+```
+sort file4
+```
