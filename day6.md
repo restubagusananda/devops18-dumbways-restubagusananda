@@ -92,7 +92,6 @@ sudo systemctl status nginx
 
 **8. Jalankan perintah npm start di direktori dumbflix-frontend dan cek domain tadi**
 
-![image](https://github.com/irwanpanai/dev
 
 **9. buka browser dan akses domain yang sudah dibuat tadi**
 
