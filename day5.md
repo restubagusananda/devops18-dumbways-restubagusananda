@@ -7,6 +7,5 @@ Pada dasarnya kita bisa melakukan manipulasi pada sebuah file menggunakan termin
 Untuk membuat suatu file baru dengan langsung memasuk-kan teks tanpa perlu menggunakan text editor dapat menjalankan perintah:
 
 ```shell
-cat > cat1.txt
+cat > (file-name)
 ```
-
