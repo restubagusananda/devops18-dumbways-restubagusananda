@@ -42,7 +42,7 @@ Sort untuk mengurutkan data, baik itu secara ascending atau descending.
 Berikut adalah contoh penggunaan :
 
 ```
-sort file4
+sort (file-name)
 ```
 
-![image]()
+![image](https://github.com/restubagusananda/scrn-week2-d2/blob/bc13d7e02b3bac92c3dab937af3782ae9fc1cc3b/Cuplikan%20layar%202023-09-12%20232020.png)
