@@ -30,10 +30,10 @@ Grep merupakan perintah untuk melakukan pencarian sebuah text dalam sebuah file 
 Contoh penggunaan :
 
 ```
-grep dumbways file3
+grep ros (file-name)
 ```
 
-![image]()
+![image](https://github.com/restubagusananda/scrn-week2-d2/blob/0b14672714548fd9dd57ee989cb476e1329022e8/Cuplikan%20layar%202023-09-12%20231409.png)
 
 **4. sort**
 
