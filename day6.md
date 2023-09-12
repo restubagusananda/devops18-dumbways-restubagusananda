@@ -1,19 +1,31 @@
-# Day 7 - Web Server & Reverse Proxy
+# Day 6 - Web Server & Reverse Proxy
 
 ## 1. Running Dumbflix using PM2
 
-1. Gunakan node 10
+** Gunakan node 10 **
 ```bash
 nvm use 10
 ``` 
-<img src="images/image001.png">
+## Jalankan aplikasi Dumbflix menggunakan PM2
 
-2. Masuk ke direktori dumbflix dan running menggunakan PM2
-```bash
-cd dumbflix-frontend/
-pm2 start npm --name "dumb-flix" -- start
-``` 
-<img src="images/image002.png">
+**install PM2 dengan perintah berikut**
+
+```
+npm install pm2 -g
+```
+
+** masuk ke dirktori src pada dumbflix lalu jalankan PM2**
+
+```
+cd dumbflix-frontend/src
+```
+
+```
+pm2 start index.js
+```
+
+![image](https://github.com/restubagusananda/scrn-day6-w2/blob/73e6e8102f5e9779c0d0ca707a54d423690e993f/Cuplikan%20layar%202023-09-13%20002525.png)
+
 
 ## 2. Create Reverse Proxy
 
