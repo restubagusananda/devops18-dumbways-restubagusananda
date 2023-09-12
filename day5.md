@@ -114,18 +114,12 @@ nmon
 
 ## BASH script untuk instalasi nGinx
 
-Anda dapat membuat skrip BASH sederhana untuk menginstal Nginx dengan perintah berikut:
-## 3. Buatlah BASH Script untuk instalasi NGINX
-### 3.1 Buat File Script
-<img width="1440" alt="Screenshot 2023-09-06 at 01 19 32" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/d35df259-5ec8-4e95-a55c-8ffc2cf7cc95">
+Anda dapat membuat skrip BASH sederhana untuk menginstal Nginx dengan perintah berikut.
 Pertama buatlah file dengan nama <b>install_nginx.sh</b> dengan menjalankan perintah:
 
 ```shell
 nano install_nginx.sh
 ```
-
-### 3.2 Isi File Script
-<img width="1440" alt="Screenshot 2023-09-06 at 01 18 23" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/7c26c5a9-aa11-4ff4-a9a7-0bd2ddff6806">
 Lalu masukan perintah berikut pada text editor:
 
 ```shell
@@ -140,10 +134,11 @@ sudo systemctl status nginx
 
 Terdapat 6 perintah yang dimasukan pada Script diatas secara berurutan yaitu, Update Repository, Install Nginx, UFW Open Port Nginx Full, Cek Status UFW, Cek Status Nginx 
 
-### 3.3 Jalankan Script
-<img width="1440" alt="Screenshot 2023-09-06 at 01 19 50" src="https://github.com/calvinnr/devops18-dumbways-calvinnovryanrahaditya/assets/101310300/2faffb63-5166-4ca8-b5bb-0ffb64a30ea2">
+### Jalankan Script
+<img width="1440" src="https://github.com/restubagusananda/scrn-week2-d2/blob/179d147277eb6f36c6c8e676f5029542ab8caa2c/Cuplikan%20layar%202023-09-12%20235453.png">
 Setelah itu jalankan BASH Script dengan menjalankan perintah:
 
 ```shell
 sh install_nginx.sh
 ```
+![image](https://github.com/restubagusananda/scrn-week2-d2/blob/179d147277eb6f36c6c8e676f5029542ab8caa2c/Cuplikan%20layar%202023-09-12%20235616.png)
