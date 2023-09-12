@@ -9,4 +9,4 @@ Distributed Version Control adalah jenis sistem manajemen versi yang digunakan u
 ### Membuat Repository
 
 ### 2.1 Membuat Repository melalui Github.com
-<img width="1440" alt="Screenshot 2023-09-04 at 19 10 04" src="https://github.com/restubagusananda/scrweek2d1/blob/dc7cf53ce599a78fc69132c3cebf77d13516ba97/Cuplikan%20layar%202023-09-12%20171328.png">
+<img width="1440" alt="Screenshot 2023-09-04 at 19 10 04" src="https://github.com/restubagusananda/scrweek2d1/blob/f1d71d78a575a51c18d0ac1c51b18ef63f74a442/Cuplikan%20layar%202023-09-12%20173247.png">
